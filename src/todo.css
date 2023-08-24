@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+
+    background-color: brown;
+    
+}
+.box{
+    padding-block: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-contain{
+    display: flex;
+    gap: 30px;
+}
+.btn-two{
+    padding: 10px 5px;
+}
+.app{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100%;
+
+}
+/* .sub-container{
+    margin: auto;
+    background-color: blue;
+} */
+.input{
+    width: 70%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    font-size: 20px;
+}
+/* .form-container{
+    display:flex;
+} */
+.submit-btn{
+    width: 20%;
+    padding: 5px 5px;
+    font-weight: 700;
+}
+/* .mini-container{
+    display: flex;
+} */
